@@ -11,5 +11,3 @@ permissions:
 jobs:
   trigger-ost:
     uses: oVirt/ovirt-system-tests/.github/workflows/ost.yaml@ost_on_gh
-    secrets:
-      CALLER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
